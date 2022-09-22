@@ -1,5 +1,6 @@
 package com.bean.lifecycle.config.beanlifecycle;
 
+// This is final project of beanlifecycle with date : 22/09/2022
 
 import com.bean.lifecycle.config.beanlifecycle.SpringBasedDependencyInjection.RecommendedMovieImpmenetation;
 import com.bean.lifecycle.config.beanlifecycle.lifecycleprototypescopedbeans.ContentFilter2;
@@ -19,6 +20,8 @@ import java.util.logging.Logger;
 
 @SpringBootApplication
 @ComponentScan(basePackages = {"com.scope", "com.bean.lifecycle.config.beanlifecycle.SpringBasedDependencyInjection", "com.bean.lifecycle.config.beanlifecycle.lifecycleprototypescopedbeans"})
+
+
 
 public class BeanlifecycleApplication {
 
